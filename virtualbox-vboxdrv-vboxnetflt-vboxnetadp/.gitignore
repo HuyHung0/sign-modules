@@ -1,0 +1,3 @@
+# Ignore all files except .sh files and md file
+*.der
+*.priv
