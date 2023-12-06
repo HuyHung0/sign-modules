@@ -3,7 +3,8 @@ These scripts are for signing modules when the modules can not be loaded because
 - Sign `vmmon`, `vmnet` to run VMware on Debian with secure boot enable. The script is a copy from 
 <https://github.com/rune1979/ubuntu-vmmon-vmware-bash/tree/master>. However, we change the option `-nodes` (which is deprecated in `openssl`) to `-noenc`.
 - Sign wifi driver `RTL88x2bu` after installing driver from <https://github.com/cilynx/rtl88x2bu>.
-
+- Sign virtualbox modules: `vboxdrv`, `vboxnetflt`, `vboxnetadp` using instruction when running `sudo /sbin/vboxconfig`.
+  
 Example: Browser and save scripts manually or download using git or wget; make it executable and run it.
 ```bash
 git clone https://github.com/huyhung0/sign-modules
